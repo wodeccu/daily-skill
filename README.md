@@ -8,5 +8,5 @@ jq获取checkbox选中的对象,i为遍历的下标
  $('input[name="rolRes"]:checked').each(function(i,dom){
       alert($(this).val());
 });
-
-
+ 
+ 事件查看器，可以查看apache错误
