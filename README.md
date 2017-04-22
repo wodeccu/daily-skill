@@ -16,3 +16,11 @@ INSERT INTO m_wjb VALUES(new.wjbh,new.wjbm,new.pssj,new.wjdx,new.wjlx,new.jybh,n
 
 
 date_default_timezone_set('PRC');  设置中国时区
+读取xml文件
+// $study = array();
+// $xml = simplexml_load_file('WriteXmlDoc.xml');
+// foreach($xml->children() as $period) {
+//     $study[] = get_object_vars($period);//获取对象全部属性，返回数组
+// }
+// echo '<pre>';
+// print_r($study);
